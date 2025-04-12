@@ -1,0 +1,511 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Way Finder</title>
+
+<link href="css/fonts.css" rel="stylesheet" type="text/css">
+<link href="css/smooth-scrollbar.css" rel="stylesheet" type="text/css">
+<link href="css/globle.css" rel="stylesheet" type="text/css">
+
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/poi.js"></script>
+<style>
+    .thumb-hide{
+        display: none;
+    }
+</style>
+</head>
+
+<body>
+  <div class="top-bar">
+    <img src="images/DBS-logo.svg">
+  </div>
+<div class="site-main">
+    <div class="container">
+        <div class="content-main">
+            <div class="left-conent">
+                <div class="thumb-main">
+                    <div class="scrollbar" data-simplebar="init">
+                        <div class="level-thumbs">
+                            <div class="title">B1</div>
+                            <a href="javascript:void(0);" category="Transport" poiId="1">
+                                <div class="thumb act"><img src="images/thumb.png" alt=""></div>
+                            </a>
+                        </div>
+                        <div class="level-thumbs">
+                            <div class="title">L1</div>
+                            <a href="javascript:void(0);" category="Health & Fitness" poiId="2">
+                                <div class="thumb"><img src="images/thumb.png" alt=""></div>
+                            </a>
+                            <a href="javascript:void(0);" category="Transport" poiId="3">
+                                <div class="thumb"><img src="images/thumb.png" alt=""></div>
+                            </a>
+                            <a href="javascript:void(0);" category="Essential Services" poiId="4">
+                                <div class="thumb"><img src="images/thumb.png" alt=""></div>
+                            </a>
+                        </div>
+                        <div class="level-thumbs">
+                            <div class="title">L2</div>
+                            <a href="javascript:void(0);" category="Shopping" poiId="5">
+                                <div class="thumb"><img src="images/thumb.png" alt=""></div>
+                            </a>
+                            <a href="javascript:void(0);" category="Transport" poiId="6">
+                                <div class="thumb"><img src="images/thumb.png" alt=""></div>
+                            </a>
+                            <a href="javascript:void(0);" category="Health & Fitness" poiId="7">
+                                <div class="thumb"><img src="images/thumb.png" alt=""></div>
+                            </a>
+                            <a href="javascript:void(0);" category="Dining" poiId="8">
+                                <div class="thumb"><img src="images/thumb.png" alt=""></div>
+                            </a>
+                            <a href="javascript:void(0);" category="Dining" poiId="9">
+                                <div class="thumb"><img src="images/thumb.png" alt=""></div>
+                            </a>
+                            <a href="javascript:void(0);" category="Childcare" poiId="10">
+                                <div class="thumb"><img src="images/thumb.png" alt=""></div>
+                            </a>
+                        </div>
+                        <div class="level-thumbs">
+                            <div class="title">L3</div>
+                            <a href="javascript:void(0);" category="Health & Fitness" poiId="11">
+                                <div class="thumb"><img src="images/thumb.png" alt=""></div>
+                            </a>
+                            <a href="javascript:void(0);" category="Event Spaces" poiId="12">
+                                <div class="thumb"><img src="images/thumb.png" alt=""></div>
+                            </a>
+                        </div>
+                        <div class="level-thumbs">
+                            <div class="title">L5</div>
+                            <a href="javascript:void(0);" category="DBS Asia Gateway" poiId="13">
+                                <div class="thumb"><img src="images/thumb.png" alt=""></div>
+                            </a>
+                            <a href="javascript:void(0);" category="DBS Asia Gateway" poiId="14">
+                                <div class="thumb"><img src="images/thumb.png" alt=""></div>
+                            </a>
+                            <a href="javascript:void(0);" category="DBS Asia Gateway" poiId="15">
+                                <div class="thumb"><img src="images/thumb.png" alt=""></div>
+                            </a>
+                            <a href="javascript:void(0);" category="DBS Asia Gateway" poiId="16">
+                                <div class="thumb"><img src="images/thumb.png" alt=""></div>
+                            </a>
+                            <a href="javascript:void(0);" category="DBS Asia Gateway" poiId="17">
+                                <div class="thumb"><img src="images/thumb.png" alt=""></div>
+                            </a>
+                            <a href="javascript:void(0);" category="Essential Services" poiId="18">
+                                <div class="thumb"><img src="images/thumb.png" alt=""></div>
+                            </a>
+                            <a href="javascript:void(0);" category="DBS Asia Gateway" poiId="19">
+                                <div class="thumb"><img src="images/thumb.png" alt=""></div>
+                            </a>
+                            <a href="javascript:void(0);" category="Transport" poiId="20">
+                                <div class="thumb"><img src="images/thumb.png" alt=""></div>
+                            </a>
+                        </div>
+                        <div class="level-thumbs">
+                            <div class="title">L8</div>
+                            <a href="javascript:void(0);" category="Event Spaces" poiId="21">
+                                <div class="thumb"><img src="images/thumb.png" alt=""></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="filter-main">
+                    <a href="javascript:void(0);" class="act">All</a>
+                    <a href="javascript:void(0);">Childcare</a>
+                    <a href="javascript:void(0);">DBS Asia Gateway</a>
+                    <a href="javascript:void(0);">Dining</a>
+                    <a href="javascript:void(0);">Essential Services</a>
+                    <a href="javascript:void(0);">Event Spaces</a>
+                    <a href="javascript:void(0);">Health & Fitness</a>
+                    <a href="javascript:void(0);">Shopping</a>
+                    <a href="javascript:void(0);">Transport</a>
+                </div>
+                <!-- Details section start -->
+
+                <!-- B1 -->
+                <div poidetail="1" class="details-main">
+                    <div class="level-pic">
+                        <img src="images/img1.jpg" alt="">
+                    </div>
+                    <div class="title">End of Trip Facilities <span class="lable">Transport</span></div>
+                    <div class="lavel-details">
+                        <div class="scrollbar" data-simplebar="init">
+                            <p>Parking lots are available on Level B1 and Level 5 for DBS staff.</p>
+                            <div class="qr-code">
+                                <div class="code">
+                                    <img src="images/qr-code.png" alt="">
+                                </div>
+                                <p>Scan QR code to find out more about season parking rates and application.</p>
+                            </div>
+                            <p>
+                                <b>Other Modes of Transport?</b> <br/>
+                                Bicycle park, lockers and shower rooms are also available on B1 for your use!
+                            </p>  
+                        </div>
+                    </div>
+                </div>
+
+                <!-- L1 -->
+                <div poidetail="2" class="details-main" style="display: none;">
+                    <div class="level-pic">
+                        <img src="images/img1.jpg" alt="">
+                    </div>
+                    <div class="title">Verge Gym (PBC #01-01) <span class="lable">Health & Fitness</span></div>
+                    <div class="lavel-details">
+                        <div class="scrollbar" data-simplebar="init">
+                            <p>Stay active and healthy with Verge Gym, a boutique strength and conditioning studio committed to creating an inclusive environment for all fitness levels.<br/>
+                                Exclusive 15% discount for DBS staff.</p>
+                                                            
+                               <b>Other Gyms Nearby:</b>
+                               <ul>
+                                    <li>Dungeon Performance Gym (PBC #03-01, in Wyse Active Hub)</li>
+                                    <li>Anytime (JTC Summit, JE Central)</li>
+                                    <li>Fitness First (Westgate. DBS staff rate available. Info available on Rec Club Staff Deals page.)</li>
+                                    <li>Extreme Fitness (Chevron)</li>
+                                    <li>Verge Training & Dungeon Performance Gym: 15% DBS staff discount</li>
+                               </ul>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div poidetail="3" class="details-main" style="display: none;">
+                    <div class="level-pic">
+                        <img src="images/img1.jpg" alt="">
+                    </div>
+                    <div class="title">Shutter Bus Pick Up Point <span class="lable">Transport</span></div>
+                    <div class="lavel-details">
+                        <div class="scrollbar" data-simplebar="init">
+                            <p>To aid in your transition to the new location, shuttle services remain available to DAG colleagues in both Toh Guan and PBC offices (during the move), and in PBC office until Jan 2026.</p>                                                            
+                            <p>Check out the bus schedule below:</p>
+                            <div class="blank"></div>
+                            <p>Shuttle Bus cessation may be brought forward if ridership falls <80%. </p>
+                            
+                        </div>
+                    </div>
+                </div>
+
+                <div poidetail="4" class="details-main" style="display: none;">
+                    <div class="level-pic">
+                        <img src="images/img1.jpg" alt="">
+                    </div>
+                    <div class="title">Reception <span class="lable">Essential Services</span></div>
+                    <div class="lavel-details">
+                        <div class="scrollbar" data-simplebar="init">
+                            <p>Lorem ipsum dolor sit amet consectetur. Malesuada fames eu aenean convallis netus feugiat enim in neque. Quis quis hendrerit quam sapien mollis accumsan vel sem. Quis ullamcorper sit eu vestibulum praesent maecenas semper sed viverra. Amet massa donec aenean vulputate.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- L2 -->
+                <div poidetail="5" class="details-main" style="display: none;">
+                    <div class="level-pic">
+                        <img src="images/img1.jpg" alt="">
+                    </div>
+                    <div class="title">Jurong East MRT / JEM  <span class="lable">Shopping  </span></div>
+                    <div class="lavel-details">
+                        <div class="scrollbar" data-simplebar="init">
+                            <p>Direcly accessible via sheltered linkbridge available on PBC L2</p>
+                            <p>
+                                <b>Dining Options In JEM:</b><br/>
+                                Over 80 FnB options from food court to restaurants and cafés to satisfy every craving or dining needs. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div poidetail="6" class="details-main" style="display: none;">
+                    <div class="level-pic">
+                        <img src="images/img1.jpg" alt="">
+                    </div>
+                    <div class="title">Jurong East Bus Interchange <span class="lable">Transport</span></div>
+                    <div class="lavel-details">
+                        <div class="scrollbar" data-simplebar="init">
+                            <p>Convenient access to various bus routes at the nearby JE Bus Interchange, ensuring a smooth commute.</p>
+                            <div class="blank" style="height:220px;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div poidetail="7" class="details-main" style="display: none;">
+                    <div class="level-pic">
+                        <img src="images/img1.jpg" alt="">
+                    </div>
+                    <div class="title" style="font-size: 21px;">Ng Teng Fong General Hospital (NTFGH) <span class="lable">Health & Fitness</span></div>
+                    <div class="lavel-details">
+                        <div class="scrollbar" data-simplebar="init">
+                            <p>Ng Teng Fong General Hospital is a 700-bed hospital and is part of an integrated development together with the adjoining Jurong Community Hospital. Accessible via the sheltered linkbridge beside Koufu.</p>
+                            <p>Additional local dining options are available within the hospital.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div poidetail="8" class="details-main" style="display: none;">
+                    <div class="level-pic">
+                        <img src="images/img1.jpg" alt="">
+                    </div>
+                    <div class="title">Koufu Food Court <span class="lable">Dining</span></div>
+                    <div class="lavel-details">
+                        <div class="scrollbar" data-simplebar="init">
+                            <p>Grab a delicious and affordable meal at Koufu food court, offering over 8 diverse food stalls and over 300 seats available. Exclusive 10% discount for  DBS staff.</p>                            
+                        </div>
+                    </div>
+                </div>
+
+                <div poidetail="9" class="details-main" style="display: none;">
+                    <div class="level-pic">
+                        <img src="images/img1.jpg" alt="">
+                    </div>
+                    <div class="title">Glyph Supply Co. <span class="lable">Dining</span></div>
+                    <div class="lavel-details">
+                        <div class="scrollbar" data-simplebar="init">
+                            <p>Craving for a cuppa or an ice cream for dessert? Check out Glyph Supply Co located beside Koufu offering specialty coffee and light bites. Exclusive 15% discount for DBS staff.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div poidetail="10" class="details-main" style="display: none;">
+                    <div class="level-pic">
+                        <img src="images/img1.jpg" alt="">
+                    </div>
+                    <div class="title">Superland Pre-school <span class="lable">Childcare</span></div>
+                    <div class="lavel-details">
+                        <div class="scrollbar" data-simplebar="init">
+                            <p>Superland Pre-School is a day care centre registered under ECDA offering full day and half day programmes for children aged 2 months to 6 years old. It provides integrated Montessori-based curriculum which covers Practical life skills, Sensory experience, Language development, Numeracy and variety of cultural activities beyond cognitive development.</p>
+                            <div class="qr-code">
+                                <div class="code">
+                                    <img src="images/qr-code.png" alt="">
+                                </div>
+                                <p>Check out more information on their website</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- L3 -->
+                <div poidetail="11" class="details-main" style="display: none;">
+                    <div class="level-pic">
+                        <img src="images/img1.jpg" alt="">
+                    </div>
+                    <div class="title" style="font-size: 17.71px;">Badminton Courts/Dungeon Performance Gym  <span class="lable">Health & Fitness</span></div>
+                    <div class="lavel-details">
+                        <div class="scrollbar" data-simplebar="init">
+                            <p>
+                               <b>Wyse Active Hub</b><br/>
+                                Singapore's largest badminton facility, with 32 fully air-conditioned courts built to BWF international specifications. Of these, 20 have been designated as training courts and the other 12 are in the competition arena, which has a seating gallery for up to 500 spectators.
+                            </p>
+                            <div class="qr-code">
+                                <div class="code">
+                                    <img src="images/qr-code.png" alt="">
+                                </div>
+                                <p>Check out more information on their website</p>
+                            </div>
+                            <p>
+                                <b>Dungeon Performance Gym</b><br/>
+                                A 3,600 sq ft gym that caters to the strength and conditioning training needs of athletes and also provides a wide range of gym equipment for the general public. Bookings for the gym are on a pay-per-use basis and can be made via the Dungeon Fitness or Gym Pod app.<br/><br/>
+                                Exclusive 30% discount on the first 3 bookings and 15% for subsequent bookings for DBS staff. 
+                             </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div poidetail="12" class="details-main" style="display: none;">
+                    <div class="level-pic">
+                        <img src="images/img1.jpg" alt="">
+                    </div>
+                    <div class="title">Event Spaces  <span class="lable">Event Spaces</span></div>
+                    <div class="lavel-details">
+                        <div class="scrollbar" data-simplebar="init">
+                            <p>
+                                Have a large townhall or event to host? Book from a wide variety of event spaces from conference halls to collaboration hub and the central plaza.
+                            </p>                            
+                            <div class="blank" style="height: 166px;"></div>
+                            <p>
+                                Exclusive 10% discount for DBS staff.
+                             </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- L5 -->
+                <div poidetail="13" class="details-main" style="display: none;">
+                    <div class="level-pic">
+                        <img src="images/img1.jpg" alt="">
+                    </div>
+                    <div class="title">DBS Office Entrance/Reception <span class="lable">DBS Asia Gateway</span></div>
+                    <div class="lavel-details">
+                        <div class="scrollbar" data-simplebar="init">
+                            <p>Welcome! Step into your new office, where innovation meets collaboration. Our friendly Workplace Experience Manager is here to support you every step of the way.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div poidetail="14" class="details-main" style="display: none;">
+                    <div class="level-pic">
+                        <img src="images/img1.jpg" alt="">
+                    </div>
+                    <div class="title">Joyspace <span class="lable">DBS Asia Gateway</span></div>
+                    <div class="lavel-details">
+                        <div class="scrollbar" data-simplebar="init">
+                            <p>Where Innovation Meets Inspiration.<br/>
+                               With a variety of activity-based workspaces and a theme tailored to your department, your Joyspaces set the stage for exciting adventures ahead. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div poidetail="15" class="details-main" style="display: none;">
+                    <div class="level-pic">
+                        <img src="images/img1.jpg" alt="">
+                    </div>
+                    <div class="title">Wellness Space <span class="lable">DBS Asia Gateway</span></div>
+                    <div class="lavel-details">
+                        <div class="scrollbar" data-simplebar="init">
+                            <p>Breathe, stretch, and refocus. Our Wellness Space is your tranquil retreat for mind and body, featuring a variety of individual pods or yoga mats for that dedicated quiet time.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div poidetail="16" class="details-main" style="display: none;">
+                    <div class="level-pic">
+                        <img src="images/img1.jpg" alt="">
+                    </div>
+                    <div class="title">Social Hub <span class="lable">DBS Asia Gateway</span></div>
+                    <div class="lavel-details">
+                        <div class="scrollbar" data-simplebar="init">
+                            <p>Connect, collaborate, and celebrate! The Social Hub is the perfect space for team bonding and informal meetings, thoughtfully designed with ample comfortable seating for dining, relaxation and meaningful connections.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div poidetail="17" class="details-main" style="display: none;">
+                    <div class="level-pic">
+                        <img src="images/img1.jpg" alt="">
+                    </div>
+                    <div class="title">Meeting Rooms/Pods <span class="lable">DBS Asia Gateway</span></div>
+                    <div class="lavel-details">
+                        <div class="scrollbar" data-simplebar="init">
+                            <p>Collaborate and conquer! Choose from a variety of  meeting rooms and pods, all equipped with the latest technology to support teams of any size.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div poidetail="18" class="details-main" style="display: none;">
+                    <div class="level-pic">
+                        <img src="images/img1.jpg" alt="">
+                    </div>
+                    <div class="title">Trade and CBO Counter <span class="lable">Essential Services</span></div>
+                    <div class="lavel-details">
+                        <div class="scrollbar" data-simplebar="init">
+                            <p><b>Document Drop-Off & Pick-Up Points</b><br/>
+                                Submit and collect your trade documents at our designated trade counters, details below:
+                            </p>
+                            <p>
+                                Trade hotline: <b>1800 222 2200</b><br/>
+                                Factoring hotline: <b>+65 6878 7788</b><br/>
+                                Operating hours: <b>9am to 6pm (Weekdays)</b>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div poidetail="19" class="details-main" style="display: none;">
+                    <div class="level-pic">
+                        <img src="images/img1.jpg" alt="">
+                    </div>
+                    <div class="title">Toilet <span class="lable">DBS Asia Gateway</span></div>
+                    <div class="lavel-details">
+                        <div class="scrollbar" data-simplebar="init">
+                            <p>Modern, clean and spacious restrooms are conveniently located throughout the building for your comfort.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div poidetail="20" class="details-main" style="display: none;">
+                    <div class="level-pic">
+                        <img src="images/img1.jpg" alt="">
+                    </div>
+                    <div class="title">End of Trip Facilities <span class="lable">Transport</span></div>
+                    <div class="lavel-details">
+                        <div class="scrollbar" data-simplebar="init">
+                            <p>Parking lots are available on Level B1 and Level 5 for DBS staff.</p>
+                            <div class="qr-code">
+                                <div class="code">
+                                    <img src="images/qr-code.png" alt="">
+                                </div>
+                                <p>Scan QR code to find out more about season parking rates and application.</p>
+                            </div>
+                            <p>
+                                <b>Other Modes of Transport?</b> <br/>
+                                Bicycle park, lockers and shower rooms are also available on B1 for your use!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- L8 -->
+                <div poidetail="21" class="details-main" style="display: none;">                    
+                    <div class="level-pic">
+                        <img src="images/img1.jpg" alt="">
+                    </div>
+                    <div class="title">Roof Garden <span class="lable">Event Spaces</span></div>
+                    <div class="lavel-details">
+                        <div class="scrollbar" data-simplebar="init">
+                            <p>
+                                Take a break and soak in stunning  views from the peaceful rooftop garden. Enjoy a walk, a run or a workout at the dedicated exercise corners. The main stage, complemented by multi-tiered benches, also offers an intimate yet spacious setting for a variety of events.
+                            </p>                            
+                            <div class="blank" style="height: 122px;"></div>
+                            <p>
+                                Exclusive 10% discount for DBS staff.
+                             </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Details section end -->
+
+                <div class="toggle-btns">                        
+                    <a href="javascript:void(0);" class="wf">Way Finder</a>
+                    <a href="javascript:void(0);" class="point act">Points of Interest</a>
+                </div>
+            </div>
+            <div class="right-map-area">
+                <img poimap="1" src="images/map.png" alt="">
+                <img poimap="2" src="images/map.png" alt="" style="display: none;">
+                <img poimap="3" src="images/map.png" alt="" style="display: none;">
+                <img poimap="4" src="images/map.png" alt="" style="display: none;">
+                <img poimap="5" src="images/map.png" alt="" style="display: none;">
+                <img poimap="6" src="images/map.png" alt="" style="display: none;">
+                <img poimap="7" src="images/map.png" alt="" style="display: none;">
+                <img poimap="8" src="images/map.png" alt="" style="display: none;">
+                <img poimap="9" src="images/map.png" alt="" style="display: none;">
+                <img poimap="10" src="images/map.png" alt="" style="display: none;">
+                <img poimap="11" src="images/map.png" alt="" style="display: none;">
+                <img poimap="12" src="images/map.png" alt="" style="display: none;">
+                <img poimap="13" src="images/map.png" alt="" style="display: none;">
+                <img poimap="14" src="images/map.png" alt="" style="display: none;">
+                <img poimap="15" src="images/map.png" alt="" style="display: none;">
+                <img poimap="16" src="images/map.png" alt="" style="display: none;">
+                <img poimap="17" src="images/map.png" alt="" style="display: none;">
+                <img poimap="18" src="images/map.png" alt="" style="display: none;">
+                <img poimap="19" src="images/map.png" alt="" style="display: none;">
+                <img poimap="20" src="images/map.png" alt="" style="display: none;">
+                <img poimap="21" src="images/map.png" alt="" style="display: none;">
+                <div class="level-main">
+                    <a href="javascript:void(0);" class="level">B1</a>
+                    <a href="javascript:void(0);" class="level">L1</a>
+                    <a href="javascript:void(0);" class="level">L2</a>
+                    <a href="javascript:void(0);" class="level">L3</a>
+                    <a href="javascript:void(0);" class="level">L5</a>
+                    <a href="javascript:void(0);" class="level">L8</a>
+                </div>
+            </div>
+        </div>        
+    </div>
+</div>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/smooth-scrollbar.js"></script>  
+</body>
+
+</html>
